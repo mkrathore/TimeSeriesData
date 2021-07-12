@@ -1,5 +1,3 @@
-package com.rakuten.dps.dataplatform.common.ingestion
-
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
