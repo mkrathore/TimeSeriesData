@@ -55,12 +55,5 @@ Perform data transformation to keep track of individual sessions and session -ti
       Write all the queries for the different requirements in Spark-sql.
       Think in the direction of using partitioning, bucketing, etc.
 # Note
-    1. Please do not use direct Spark-sql in section A.
-    2. Please use sbt to build the Scala code into an executable jar as follows:
-      a. Open a terminal in QuizMe and cd to bse directory of your Scala project that contains build.sbt file.
-      b. Make sure that your sbt file has all the required dependencies
-      c. Run 'sbt compile' followed by 'sbt package'.
-      d. After successful sbt package command, the executable jar is generated in target folder
-      e. Execute the jar using command `spark-submit target/jar-file-name.jar`
-    3. Note that some exceptions may occur in running the sbt commands but that should not halt the jar creations
-    4. sbt compile may take a bit longer to execute for the first time as it downloads all the dependencies
+    Please do not use direct Spark-sql in section A.
+   
